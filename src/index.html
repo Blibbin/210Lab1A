@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <!-- Links to stylesheets -->
+</head>
+
+<body>
+    <!-- Your visible elements -->
+    <!-- Links to scripts -->
+    <h1>Britton's IT&C210 Website</h1>
+    <nav>
+        <a href="github.com/Blibbin">Github</a>
+    </nav>
+    <hr>
+    
+    <input type="checkbox" id="Sort by date" name="Sort by date">
+    <label for="html">Sort by date</label>
+
+    <input type="checkbox">
+    <label for="html">Filter completed tasks</label>
+
+    <ul>
+        <input type="checkbox">
+        <label>Finish Lab1A <span style="font-family: 'Courier New', Courier, monospace">09-05-2025</span></label>
+        <button type="button">Delete</button><br>
+
+        <input type="checkbox">
+        <label>Get to bed early <span style="font-family: 'Courier New', Courier, monospace">09-05-2025</span></label>
+        <button type="button">Delete</button><br>
+
+        <input type="checkbox">
+        <label>Do Homework <span style="font-family: 'Courier New', Courier, monospace">09-05-2025</span></label>
+        <button type="button">Delete</button><br>
+        <!--<button type="button" style="background-color: red; border-color: black; font-weight: 1000;">Delete</button>-->
+    </ul>
+
+    <form action="" method="post" id="formID">
+        <input required type="text" name="desc"><br>
+        <input required type="date" name="date"><br>
+        <input type="submit" value="Create Task">
+    </form>
+</body>
+
+</html>
